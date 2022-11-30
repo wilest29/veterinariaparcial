@@ -1,0 +1,38 @@
+form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 4rem !important;
+}
+
+form button {
+    background: rgb(96, 89, 246) !important;
+    border-color: rgb(96, 89, 246) !important;
+}
+
+form button:hover {
+    background: rgb(43, 45, 171) !important;
+    border-color: rgb(43, 45, 171) !important;
+}
+
+.form-staff {
+    margin-top: 2.2rem !important;
+}
+
+.form__client-edit {
+    margin-top: 3rem !important;
+}
+
+.container {
+    position: relative;
+}
+
+@media (min-width: 1024px) {
+    form {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    form {
+        width: 80% !important;
+    }
+}

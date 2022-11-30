@@ -1,0 +1,96 @@
+/* =============== GOOGLE FONTS =============== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    min-height: 100vh !important;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    z-index: 999;
+}
+
+a i {
+    text-decoration: none !important;
+    color: rgb(78, 71, 253) !important;
+}
+
+.img__logo {
+    width: 50px;
+}
+
+.button__logout {
+    background: rgb(78, 71, 253);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.button__logout i {
+    color: #fff !important;
+    font-size: 1rem !important;
+}
+
+.button__logout:hover {
+    background: rgb(43, 45, 171);
+    color: #fff;
+}
+
+.container-panel {
+    padding: 40px 70px 0 70px !important;
+    background: #FFFFFF;
+    min-height: 100vh !important;
+    max-width: 100% !important;
+}
+
+.heading-section {
+    font-weight: bold;
+}
+
+.img-card {
+    width: 100% !important;
+}
+
+.button__add-panel {
+    background: #fff;
+    color: rgb(78, 71, 253);
+    border-radius: 5px;
+    padding: 14px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 13px;
+    font-weight: 500 !important;
+    border: 2px solid rgb(78, 71, 253);
+}
+
+.button__add-panel:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(43, 45, 171);
+}
+
+.button__add-panel i {
+    font-size: 25px;
+    color: rgb(78, 71, 253) !important;
+    margin-bottom: 5px !important;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    border: 2px solid rgba(96, 89, 246, 0.2) !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+}
+
+.card:hover {
+    border: 2px solid rgb(43, 45, 171) !important;
+    transition: .5s;
+}

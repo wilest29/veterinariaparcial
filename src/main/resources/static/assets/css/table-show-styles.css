@@ -1,0 +1,148 @@
+/* =============== GOOGLE FONTS =============== */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    min-height: 100vh !important;
+}
+
+a {
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    z-index: 999;
+}
+
+a i {
+    text-decoration: none !important;
+    color: rgb(96, 89, 246) !important;
+}
+
+.img__logo {
+    width: 50px;
+}
+
+.icon__home:hover {
+}
+
+.icon__home {
+    font-size: 2.2rem;
+}
+
+.button__logout {
+    background: rgb(96, 89, 246);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.button__logout:hover {
+    background: rgb(43, 45, 171);
+    color: #fff;
+}
+
+.button__add {
+    background: rgb(96, 89, 246);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.button__add:hover {
+    background: rgb(43, 45, 171);
+    color: #fff;
+}
+
+/* ========== TABLE ========== */
+.container-table {
+    padding: 50px 70px 0 70px !important;
+    background: #FFFFFF;
+    min-height: 100vh !important;
+}
+
+.table thead.thead-primary {
+    background: rgb(96, 89, 246);
+}
+
+.table thead th {
+    font-size: 18px !important;
+}
+
+.heading-section {
+    font-weight: bold;
+}
+
+.table-wrap {
+    overflow-x: scroll;
+}
+
+.table {
+    min-width: 1000px !important;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    text-align: center;
+}
+
+.table thead th {
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.table tbody tr {
+    margin-bottom: 10px;
+}
+
+.table tbody th, .table tbody td {
+    border: none;
+    font-weight: 500 !important;
+    padding: 20px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle;
+    border-bottom: 2px solid rgba(0, 3, 98, 0.2);
+}
+
+.table tbody th.scope {
+    background: rgba(27, 30, 123, 0.2);
+    border-bottom: 2px solid rgba(0, 3, 98, 0.2);
+}
+
+.actions {
+    position: static;
+}
+
+.btn-upgrade,
+.btn-delete{
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .table tbody td:nth-child(odd) {
+        background: rgba(27, 30, 123, 0.2);
+        border-bottom: 2px solid rgba(0, 3, 98, 0.2);
+    }
+}
+
+@media (max-width: 660px) {
+    .row__nav {
+        justify-content: center !important;
+    }
+    .button__logout {
+        margin: auto !important;
+    }
+
+    .container-table {
+        padding: 70px 20px !important;
+    }
+}
